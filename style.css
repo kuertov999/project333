@@ -1,0 +1,518 @@
+*{
+    scroll-behavior: smooth;
+    }
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 135%;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+#mainnav ul {
+    list-style: none;
+    /*Убираем маркеры списка*/
+    margin: 0;
+    padding-left: 40px;
+   
+}
+
+#mainnav li {
+    display: inline;
+    /*выстраиваем пункты меня в ряд*/
+
+    line-height: 100px;
+    font-size: 22px;
+    padding-left: 40px;
+
+}
+
+#mainnav a {
+    text-decoration: none;
+    /*убираем подчеркивание*/
+    color: aliceblue;
+
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
+}
+
+#mainnav li.active a {
+    font-weight: bold;
+
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background-color: #b1a9b4; 
+}
+
+
+main {
+    padding-bottom: 100px;
+}
+
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-transform: uppercase;
+}
+
+body {
+    background-color: #b1a9b4;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+    
+}
+
+.footer_block {
+    display: inline-block;
+    width: 450px;
+    text-align: left;
+padding-right: 250px;
+}
+
+.footer_block a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+header,
+main,
+footer {
+
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+div#tekst_sverhu_kartinki {
+
+    position: relative;
+
+}
+
+.tekst_sverhu_kartinki {
+    position: absolute;
+    top: 35%;
+    left: 368px;
+    width: 704px;
+    height: 196px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.contmeleft{
+    width: 345px;
+height: 140px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+text-align: center;
+}
+
+.contmeleft_1{
+    width: 344px;
+height: 142px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 35px */
+
+text-align: center;
+
+}
+.contmeleft_2{
+    width: 344px;
+height: 142px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+text-align: center;
+}
+.zanatia {
+    position: absolute;
+    width: 1450px;
+    height: 56px;
+    margin-top: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+
+    text-align: center;
+
+}
+
+.yslygi_block_1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 160px;
+margin-bottom: 138px;
+margin-top: 100px;
+gap: 40px;
+width: 1165px;
+height: 180px;
+}
+.port_1{
+    position: absolute;
+    top: -570px;
+    left: 170px;
+width: 375px;
+height: 390px;
+position: absolute;
+width: 372px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+text-align: center;
+
+}
+.port_2{
+    
+position: absolute;
+top: -570px;
+left: 770px;
+width: 372px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+/* identical to box height, or 56px */
+
+text-align: center;
+
+}
+.portfolio{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 169px;
+
+position: absolute;
+width: 913px;
+height: 56px;
+
+}
+.portfolio_name{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+width: 1063px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+
+text-align: center;
+}
+div#port{
+
+    position: relative;
+
+}
+.nav{
+    position: absolute;
+    width: 1450px;
+    height: 56px;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+ 
+    text-align: center;
+}
+.nav_1{
+    width: 255px;
+    height: 302px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.nav_2{
+    width: 254px;
+    height: 210px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.nav_3{
+    width: 255px;
+    height: 245px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 290px;
+    padding-top: 180px;
+    margin-top: 70px;
+    gap: 40px;
+    width: 1165px;
+    height: 520px;
+}
+div#topic{
+    position: relative;
+}
+div#me{
+    position: relative;
+}
+.me_name{  /*заголовок*/
+    position: absolute;
+    width: 1065px;
+    height: 56px;
+    left: 188px;
+    top: 100px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    
+    text-align: center;
+}
+.me_1{ /*блок текста*/
+    position: absolute;
+    width: 500px;
+    height: 561px;
+    left: 780px;
+    top: 400px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    /* or 35px */
+    
+    display: flex;
+    
+}
+.chel{ /*картинка главная*/
+    position: absolute;
+    width: 525px;
+    height: 626px;
+    left: 188px;
+    top: 260px;
+    
+}
+.dop_p{
+    position: absolute;
+width: 525px;
+height: 561px;
+left: 728px;
+top: 80px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 35px */
+
+display: flex;
+align-items: center;
+}
+
+
+#contact-form input[type="submit"] {/*отправить*/
+    
+    padding: 5px;
+    width: 360px;
+    height: 69px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #b1a9b4;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+.form_item input[type="text"]{ /*введите ваше имя*/
+    background-color: #fcfcfc;
+    width: 350px;
+    height: 69px;
+    padding: 5px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+color: #4D4D4D;
+border: 0ch;
+}
+
+.form_item input[type="email"]{/*емэйл*/
+    background-color: #ffffff;
+    width: 350px;
+    height: 69px;
+    padding: 5px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+.form_item select{ /*заказать услугу*/
+background-color: #ffffff;
+width: 360px;
+height: 69px;
+padding: 5px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #b1a9b4;
+}
+div#kontacty{
+    position: relative;
+}
+.knt{
+    position: absolute;
+width: 1065px;
+height: 56px;
+left: 188px;
+top: 70px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+text-align: center;
+}
+.forma{
+padding-top: 200px;
+padding-left: 270px;
+
+width: 347px;
+height: 321px;
+left: 250px;
+top: 210px;
+padding-bottom: 80px;
+
+}
+.kontacts{
+    position: absolute;
+width: 435px;
+height: 336px;
+left: 730px;
+top: 181px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 65px;
+}
+.aa{
+    color: rgb(255, 255, 255);
+text-decoration: none;
+}
